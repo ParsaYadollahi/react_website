@@ -1,0 +1,31 @@
+.fullpage {
+  height: 200vh;
+  width:100vw;
+  background-image: linear-gradient(black, white);
+  color:white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center_div {
+  height: 80%;
+  width: 70%;
+  margin: auto;
+}
+
+.image_center_div {
+  padding: absolute;
+  margin-top: -8%;
+  margin-left: -10%;
+  color: white; 
+  mix-blend-mode: difference;
+  font-size: 100px;
+}
+
+.image_center_div_soft {
+  padding: absolute;
+  margin-left: -10%;
+  color: white; 
+  mix-blend-mode: difference;
+  font-size: 50px;
+}
