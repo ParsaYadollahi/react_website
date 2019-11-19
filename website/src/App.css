@@ -1,31 +1,71 @@
 .fullpage {
   height: 200vh;
   width:100vw;
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(black 55%, white);
   color:white;
   display: table-cell;
   vertical-align: middle;
 }
 
 .center_div {
-  height: 80%;
+  height: 95%;
   width: 70%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pourya_image {
+  height: 500px;
+  width: auto;
 }
 
 .image_center_div {
-  padding: absolute;
-  margin-top: -8%;
-  margin-left: -10%;
+  margin-top: -5%;
+  margin-left: -8%;
   color: white; 
   mix-blend-mode: difference;
-  font-size: 100px;
+  font-size: 70px;
 }
 
 .image_center_div_soft {
-  padding: absolute;
-  margin-left: -10%;
-  color: white; 
+  margin-left: -6%;
+  color: rgb(197, 197, 197); 
+  mix-blend-mode: difference;
+  font-size: 40px;
+}
+
+.box {
+  height: 100vh;
+  margin-top: 5%;
+  height: auto;
+}
+
+.box_bottom_left {
+  margin: auto;
+  height: 100%;
+  text-align: left;
+}
+
+.box_bottom_right {
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.company {
+  color: rgb(148, 148, 148); 
   mix-blend-mode: difference;
   font-size: 50px;
+  margin-bottom: 0;
+}
+
+.date {
+  color: rgb(185, 185, 185); 
+  mix-blend-mode: difference;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.email {
+  color: white;
 }

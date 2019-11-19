@@ -1,0 +1,38 @@
+.sumbit {
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+label {
+    text-align: left;
+    display:block;
+    position: relative;
+    font-size: 18px;
+    padding-top: 5%;
+}
+
+input, textarea {
+    width: 100%;
+    line-height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(214, 211, 211);
+}
+
+button {
+    font-size: 19px;
+    float: right;
+    background: transparent;
+    border: none;
+    transition: transform 0.7s ease;
+}
+
+button:hover {
+    transition: transform 0.7s ease;
+    transform: translateX(10px);
+}
+
+.foo {
+    padding-left: 10px;
+  }
