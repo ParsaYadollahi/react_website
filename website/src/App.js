@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Email from './email'
 import { Grid, FormControl, InputLabel, Input, FormHelperText } from '@material-ui/core';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 class App extends React.Component {
   
@@ -32,20 +33,11 @@ class App extends React.Component {
                 <p className="company">CISCO</p>
                 <p className="date">MAY - AUG 2016 </p>
               </Grid>
-
-
-
-
               <Grid className="box_bottom_right" item xs={6}>
                 <Email />
               </Grid>
-
-
-
-
-
-
             </Grid>
+            <button ></button>
           </div>
         </div>
           
