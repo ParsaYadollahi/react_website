@@ -2,8 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Email from './email'
-import { Grid, FormControl, InputLabel, Input, FormHelperText } from '@material-ui/core';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Grid } from '@material-ui/core';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import IconButton from '@material-ui/core/IconButton';
 
 class App extends React.Component {
   
@@ -18,6 +20,14 @@ class App extends React.Component {
               </div>
               <div className="image_center_div_soft">
               <p>SOFTWARE ENGINEER</p>
+              </div>
+              <div>
+              <IconButton onClick={()=> window.open("https://www.linkedin.com/in/abbas-yadollahi/", "_blank")} style={{color : 'white'}} aria-label="delete">
+                <LinkedInIcon style={{fontSize : '50px'}} />
+              </IconButton>
+              <IconButton onClick={()=> window.open("http://github.com/thegirrafish", "_blank")} style={{color : 'white'}} aria-label="delete">
+                <GitHubIcon style={{fontSize : '40px'}} />
+              </IconButton>
               </div>
             </div>
           

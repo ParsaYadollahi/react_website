@@ -24,7 +24,7 @@ class Email extends React.Component {
 					<label>MESSAGE</label>
 					<textarea rows = "4" type="text" placeholder="Message" class="foo" name="message"></textarea>
 				</div>
-				<button>
+				<button className="button">
 					<input className="sumbit" type="submit" value="Submit >>"></input>
 				</button>
 			</form>
