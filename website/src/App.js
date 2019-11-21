@@ -47,7 +47,6 @@ class App extends React.Component {
                 <Email />
               </Grid>
             </Grid>
-            <button ></button>
           </div>
         </div>
           
